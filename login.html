@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <style>
+        * {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            background-image: url(./images/meme2.jpg);
+            background-repeat: no-repeat;
+
+            height: 100%;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        /*.header {*/
+        /*    color: brown;*/
+        /*    font-size: 60px;*/
+        /*    text-align: center;*/
+        /*    margin-bottom: 100px;*/
+        /*}*/
+
+        .main {
+            
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            /*will make page resposnsive*/
+            justify-content: center;
+            
+
+
+        }
+
+        .template1 {
+            width: 350px;
+            height: 450px;
+            background-color: white;
+            margin-top: 100px;
+            margin-left: 20px;
+            background-color:rgba(255, 255, 255, 0.938);
+            margin-bottom: 20px;
+
+
+
+        }
+
+        .login1 {
+            width: 100%;
+            height: 150px;
+            background: linear-gradient(to right, orange, red);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 15px;
+        }
+
+        .login1 h1 {
+            color: white;
+            font-size: 30px;
+        }
+
+        .login1 i {
+            color: white;
+            font-size: 20px;
+            padding-right: 7px;
+        }
+
+        .main1 {
+            padding: 20px;
+
+
+        }
+
+        input[type='email'] {
+            outline: none;
+            border: none;
+            border-bottom: 1px solid orange;
+            padding: 10px 0;
+            background-color: transparent;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        input[type='password'] {
+            outline: none;
+            border: none;
+            background-color: transparent;
+            border-bottom: 1px solid orange;
+            padding: 10px 0;
+            width: 100%;
+           
+        }
+
+        .main1 p {
+            text-align: right;
+            color: blue;
+            font-size: 12px;
+            padding-top: 5px;
+
+        }
+
+        #btn{
+            outline: none;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            color: white;
+            background: linear-gradient(to right, orange, red);
+          
+
+
+
+        }
+
+        #p1 {
+            display: inline-block;
+            font-size: 10px;
+            margin-left: 80px;
+
+        }
+
+        .main1 p b {
+            color: darkblue;
+        }
+
+
+        a {
+            text-decoration: none;
+        }
+        label {
+            color:orangered;
+            font-size: 14px;
+            margin-top: 10px;
+          
+        }
+    </style>
+</head>
+
+<body>
+<form class="loginDet" action="login.php" method="POST">
+    <div class="main">
+        
+        <div class="template1">
+            <div class="login1">
+                <h1>LOGIN</h1>
+
+                <div class="social">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-google"></i></a>
+                </div>
+            </div>
+            <div class="main1">
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your e-mail ID" required="">
+                </div>
+                <div>
+                    <label for="pwd">Password</label>
+                    <input type="password" name="pwd" id="pwd" placeholder="Enter Password" required="">
+                </div>
+                <p>Forgot <a href="#"><b>Password?</b></a></p>
+                <input type="submit" value="LOGIN" id="btn" required="">
+                <p id="p1">Don't have an account? <a
+                        href="../Memegram/signup.html"><b>Sign Up.</b></a></p>
+            </div>
+
+        </div>
+
+        <!--
+
+        <div class="template3">
+            <div class="login3">
+                <h1>SIGNUP</h1>
+            </div>
+            <div class="main3">
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your e-mail ID">
+                </div>
+                <div id="pwdo">
+                    <label for="pwd">Password</label>
+                    <input type="password" name="pwd" id="pwd" placeholder="Enter Password">
+                </div>
+                <div>
+                    <input type="password" name="pwd" id="pwd" placeholder="Enter Password" required="">
+                </div>
+                <p>Forgot <a href="#">Password?</a></p>
+                <button type="submit" value="LOGIN">login</button>
+                <p id="p1">Don't have an account? <a href="https://ashitaseth9454.github.io/SecureFileStorage/signup.html">Sign Up.</a></p>
+            </div>
+
+            <footer>
+                <div class="socialnet2">
+                    <div class="pink">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-google"></i>
+                    </div>
+                </div>
+            </footer>
+        </div>-->
+    </div>
+
+
+</body>
+
+</html>
