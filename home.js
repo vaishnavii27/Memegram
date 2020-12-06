@@ -27,7 +27,7 @@ var x = setInterval(function() {
 
 //contest2
 
-var countDownDate2 = new Date("Jan 10, 2021 15:37:25").getTime();
+var countDownDate2 = new Date("Jan 10, 2021 16:30:20").getTime();
 
 var x = setInterval(function() {
 
@@ -52,7 +52,7 @@ var x = setInterval(function() {
 
 
 //contest3
-var countDownDate3 = new Date("Dec 25, 2020 15:37:25").getTime();
+var countDownDate3 = new Date("Dec 25, 2020 10:07:05").getTime();
 
 var x = setInterval(function() {
 
@@ -77,7 +77,7 @@ var x = setInterval(function() {
 
 
 //contest4
-var countDownDate4 = new Date("feb 5, 2021 15:37:25").getTime();
+var countDownDate4 = new Date("feb 5, 2021 11:17:15").getTime();
 
 var x = setInterval(function() {
 
