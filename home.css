@@ -9,6 +9,13 @@
 
 
 }
+body{
+    background-color: #fafafa;
+}
+.card{
+    background-color: white;
+    box-shadow: 5px 5px 8px #888888;
+}
 .navicons{
     color: black;
 }
@@ -134,3 +141,8 @@ a:hover{
 }
 
 
+@media(max-width: 900px){
+    .col-4{
+        visibility: hidden;
+    }
+}
