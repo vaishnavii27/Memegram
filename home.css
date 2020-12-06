@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
+
+
 *{
     margin: 0;
     padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 
+}
+.navicons{
+    color: black;
 }
 
 .navbar{
@@ -35,5 +43,94 @@
 
 .nav-right-items{
     text-align: center;
-    
+
 }
+
+.card{
+    margin: 20px;
+}
+
+#cardprofile{
+    padding: 10px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+#username{
+    font-size: 30px;
+    text-align: center;
+}
+
+.paid-text{
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+#memeimage{
+
+    margin-top: 5px;
+}
+
+.icon{
+    font-size: 25px;
+    color: black;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+#likes{
+    margin-left: 5px;
+}
+
+.caption{
+    margin-left: 5px;
+}
+
+#contest1, #contest2 ,#contest3, #contest4{
+    font-size: 50px;
+    padding-left: 40px;
+    align-items: center;
+    color: white;
+
+
+}
+.contest1, .contest2, .contest3 , .contest4{
+    margin: 20px;
+    padding: 10px;
+    background-image: url(./images/gradient.jpg);
+  
+            background-repeat: no-repeat; 
+            background-position: right;
+            background-size: cover;
+            background-attachment: fixed;
+}
+
+#contestname{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: white;
+    margin:10px;
+    background-color: rgba(255,255,255,.5);
+
+}
+
+#click{
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 10px;
+   
+    
+
+}
+a{
+    text-decoration: none;
+    color: lightgray;
+}
+a:hover{
+    color: lightpink;
+    text-decoration: none;
+}
+
+
